@@ -1,3 +1,18 @@
+/**
+ * HealthSetu NER — Backend Sync Server
+ * Stack: Express + SQLite (better-sqlite3)
+ *
+ * Setup:
+ *   npm init -y
+ *   npm install express better-sqlite3 cors
+ *   node server.js
+ *
+ * Deploy to Railway (free):
+ *   1. Push this file to a GitHub repo
+ *   2. Go to railway.app → New Project → Deploy from GitHub
+ *   3. Done. Copy the URL into API_BASE in your React app.
+ */
+
 const express = require("express");
 const Database = require("better-sqlite3");
 const cors = require("cors");
